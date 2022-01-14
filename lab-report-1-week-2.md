@@ -10,7 +10,6 @@ Here's what VS Code looks like once you've installed it.
 
 First look up your course account by going to [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php). Next open a terminal in VS Code by clicking on Terminal and then New Terminal in the menu options.<br>
 ![Image](screenshots/terminal.png)<br>
-<img src="terminal.png" width="200" height="200">
 <br>
 In the command line, run `$ ssh (account name here)@ieng6.ucsd.edu`. When prompted in VS Code click Remote-SSh: Connect to Host. Your first time connecting remotely you'll be asked if you want to continue connecting, type `yes` and press enter, then type in your password and enter again. Now you've successfully connected to a remote server! <br>
 <br>
