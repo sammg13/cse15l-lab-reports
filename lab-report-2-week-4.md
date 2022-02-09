@@ -9,6 +9,7 @@
 
 Symptom:<br>
 ```
+$ java MarkdownParse new-test-file.md
 Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 7 
         at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
         at java.base/java.lang.String.substring(String.java:1903)
@@ -28,6 +29,7 @@ The failure-inducing input was causes the symptom where MarkdownParse.java throw
 
 Symptom:<br>
 ```
+$ java MarkdownParse another-test-file.md
 markdown length: 8
 current index: 0
 open paren value: 0
@@ -46,6 +48,7 @@ Here the failure-inducing input, another-test-file.md, causes the symptom where 
 
 Symptom:<br>
 ```
+$ java MarkdownParse test4-file.md
 markdown length: 52
 current index: 0
 open paren value: 31
