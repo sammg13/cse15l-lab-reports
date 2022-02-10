@@ -1,4 +1,10 @@
-Hello, world! This site will look nicer over time.
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>HTML Backgorund Color</title>
+   </head>
+   <body background="background-color:green;">
+     Hello, world! This site will look nicer over time.
 
 ## Lab Reports
 
@@ -7,3 +13,5 @@ Hello, world! This site will look nicer over time.
 [Lab Report 2](lab-report-2-week-4.html)
 
 [Lab Report 3](lab-report-3-week-6.html)
+   </body>
+</html>
