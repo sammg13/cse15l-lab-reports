@@ -7,7 +7,7 @@ To find tests with different results I ran `diff CSE15L-Platypus/results.txt mar
 ![Image](screenshots/lab-report-5/file-500.png) <br>
 (500.md content)
 
-![Image](screenshots/lab-report-5/diff-500.png)
+![Image](screenshots/lab-report-5/diff-500.png)<br>
 (Different outputs) <br>
 
 Above is another test file that produces different outputs in the `MarkdownParse` files. The expected output is `[#fragment, http://example.com#fragment, http://example.com?foo=3#frag]`. In the course implementation of `MarkdownParse`, the output is `[#fragment, http://example.com#fragment, http://example.com?foo=3#frag]` which matches the expected output. In my implementation of `MarkdownParse`, the output is `[http://example.com#fragment, http://example.com?foo=3#frag]` which is incorrect since it's missing the address of the first link.
@@ -21,7 +21,7 @@ Above are lines 26 through 33 of my implementation of `MarkdownParse`. Since the
 ![Image](screenshots/lab-report-5/file-577.png) <br>
 (577.md content)
 
-![Imag](screenshots/lab-report-5/diff-577.png)
+![Imag](screenshots/lab-report-5/diff-577.png)<br>
 (Different outputs) <br>
 
 Above is the test file that produces different outputs in the `MarkdownParse` files. The expected output is `[]` because this file contains an image reference due to the `!`, so no links should be added to the array. In the course implementation of `MarkdownParse`, the output is `[train.png]`. This is incorrect since the expected output is an empty array. In my implementation of `MarkdownParse`, the output is `[]` which is correct since the output matches the expected output.
